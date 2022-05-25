@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lampada{
+    display: flex;
+}
+
+.apagada{
+    height: 400px;
+    width: auto;
+    position: absolute;
+}
+.acesa{
+    height: 400px;
+    width: auto;
+    position: relative;
+    opacity: 0;
+}
+
+#acesa-apagada{
+    margin: 50px;
+}
