@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'harry-potter';
+    src: url(../Fontes/HARRYP__.TTF);
+}
+@font-face {
+    font-family: 'old';
+    src: url(../Fontes/OLDSH___.TTF);
+}
+
+html{
+    background: black;
+    font-family: 'old';
+}
+
+nav{
+    font-family: 'harry-potter';
+    margin: 30px;
+    text-align: center;
+    background-color: rgb(209, 159, 32);
+}
+
+.menu{
+    font-size: 40px;
+    text-decoration:none;
+    color: black;
+    padding: 5px 30px;
+}
+
+.menu:hover{
+    background-color: rgb(174, 137, 44);
+    font-size: 45px;  
+    border-radius: 5px;
+    font-size: 45px;   
+}
+
+.lumos{
+    width: 350px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+.lumos:hover{
+    opacity: 1;
+}
+
+.banner{
+    width: 80%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.secs{
+    margin: 30px;
+    padding: 30px;
+}
+
+.secHistoria{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+h2{
+    background-color: rgb(209, 159, 32);
+    font-family: 'harry-potter';
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.hist{
+    display: inline-block;
+    padding: 20px 20px 0px 20px;
+    align-items: center center;
+    width: 50%;
+}
+
+.imghist{
+    width: 90%;
+    height: auto;
+    padding: 40px 0px 0px 20px;
+
+}
+
+.paraghist{
+    font-size: 22px;
+    text-align: justify;
+    color: white;
+    padding: 40px 40px 0px 0px;
+
+}
+
+.livros, .filmes{
+    text-align: center;
+    color: white;
+    font-size: large;
+    display: inline-block;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px;
+
+}
+.imgLivros{
+    border: 1px solid rgba(255, 255, 255, 0.408);
+    border-radius: 5px;
+}
+.imgLivros:hover{
+    width: 180px;
+    height: auto;
+}
+
+.conteudoLivros, .conteudoFilmes{
+    text-align: center;
+}
+
+.imgFilmes{
+    width: 160px;
+    height: 240px;
+    border: 1px solid rgba(255, 255, 255, 0.408);
+    border-radius: 5px;
+}
+
+.imgFilmes:hover{
+    width: 180px;
+    height: 270px;
+}
+iframe{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.botao{
+    font-family: 'harry-potter';
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(209, 159, 32);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 50px;
+    width: 20%;
+    line-height: 50px; 
+    border-radius: 10px;
+}
